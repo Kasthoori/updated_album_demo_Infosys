@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Component render without crashing 1`] = `
+<div>
+  <span
+    data-testid="headerdetails"
+  >
+    <Header />
+  </span>
+  <br />
+  <br />
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+        data-testid="detailtable"
+      >
+        <ForwardRef
+          cellspacing="0"
+          className="table table-striped table-bordered table-sm"
+        >
+          <thead>
+            <tr>
+              <th>
+                Details
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <span
+                data-testid="thumbnailimage"
+              />
+            </tr>
+          </tbody>
+        </ForwardRef>
+      </div>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <div>
+        <h2>
+          Album ID: 
+        </h2>
+        <Image
+          alt=""
+          data-testid="albumpicture"
+          fluid={true}
+          rounded={false}
+          roundedCircle={false}
+          src=""
+          thumbnail={false}
+        />
+        <span
+          id="idtext"
+        >
+          Image ID: 
+        </span>
+        <br />
+        <span>
+          Title: 
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

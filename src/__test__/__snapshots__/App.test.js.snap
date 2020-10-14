@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Test render without crashing 1`] = `
+<div
+  className="App"
+>
+  <span
+    data-testid="headercomp"
+  >
+    <Header />
+  </span>
+  <br />
+  <br />
+  <div
+    className="container"
+  >
+    <span
+      data-testid="datatables"
+    >
+      <ForwardRef
+        table={true}
+        table-striped={true}
+      >
+        <thead>
+          <tr>
+            <th
+              data-testid="albumid"
+            >
+              Album ID
+            </th>
+            <th
+              data-testid="albumtitle"
+            >
+              Album Title
+            </th>
+            <th
+              data-testid="moredetails"
+            >
+              More Details
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </ForwardRef>
+    </span>
+  </div>
+</div>
+`;

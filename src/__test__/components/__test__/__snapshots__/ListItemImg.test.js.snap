@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItemImg Component render without crashing 1`] = `
+<div
+  className="ListItemImg"
+  data-testid="onclickevent"
+  onClick={[Function]}
+>
+  <Image
+    alt=""
+    className="img-thumbnail"
+    data-testid="imagethumbnail"
+    fluid={false}
+    id="thumbnail"
+    rounded={true}
+    roundedCircle={false}
+    src="http://testurl"
+    thumbnail={false}
+  />
+    
+</div>
+`;

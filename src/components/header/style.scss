@@ -1,0 +1,49 @@
+@import "~bootstrap/scss/bootstrap";
+
+header {
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background: #000000;
+
+    .banner {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 20 auto;
+        max-width: 980px;
+
+        .logo {
+            display: block;
+            width: 90px;
+            position: relative;
+            left: 10px;
+            top: 50px;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            img {
+                position: relative;
+                display: block;
+                width: 80%;
+                margin: 0;
+            }
+
+        }
+
+        .title {
+            position: relative;
+            display: block;
+            width: 50%;
+            color: #a4a7a6 !important;
+            padding: 10px;
+            margin-top: -48px;
+            margin-left: 100px;
+            font-family: 'Piazzolla', serif;
+        }
+    }
+}
